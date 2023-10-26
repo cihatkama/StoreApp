@@ -19,6 +19,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 
-// app.MapGet("/", () => "Hello World!");
-// app.MapGet("/test", () => "Welcome to test page!");
+app.MapGet("/", () => "Hello World!");
+app.MapGet("/test", () => "Welcome to test page!");
 app.Run();
