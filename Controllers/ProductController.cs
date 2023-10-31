@@ -14,7 +14,7 @@ namespace StoreApp.Controllers
             _context = context;
         }
 
-        public IEnumerable<Product> Index()
+        public IActionResult Index()
         {
             // elle list gönderildi.
             // return new List<Product>()
@@ -31,8 +31,14 @@ namespace StoreApp.Controllers
             // );
 
             // Dependency Injection 
-            return _context.Products;
-            
+            var model = _context.Products.ToList();
+            return View(model);
+        }
+
+        public IActionResult Get(int id)
+        {
+            Product product = _context.Products.FirstOrDefault(x => x.ProductId.Equals(id));
+            return View(product);
         }
     }
 }
