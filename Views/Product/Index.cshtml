@@ -1,10 +1,12 @@
-@{
-    Layout = "_Layout";
+@model List<Product>
+
+<!--Sayfanın altında ya da üstünde olması farketmez. -->
+@section Footer
+{
+    <div>Only for Index footer</div>
 }
 
-@model List<StoreApp.Models.Product>
-
-@foreach (StoreApp.Models.Product prd in Model)
+@foreach (Product prd in Model)
 {
     <div>
         <h3>@prd.ProductName</h3>
