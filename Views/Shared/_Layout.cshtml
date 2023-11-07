@@ -16,9 +16,11 @@
         <partial name="_Navbar" />
         @RenderSection("Header", false)
     </header>
-    <main>
-        @RenderBody()
-    </main>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
     <footer>
         Footer
         @RenderSection("Footer", false)
