@@ -5,8 +5,9 @@ namespace StoreApp.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index() 
+        public IActionResult Index()
         {
+            ViewData["Title"] = "Welcome";
             return View();
         }
     }
