@@ -53,3 +53,5 @@ D:\workspace\vscode\Store\StoreApp\bin\Debug\net6.0\runtimes\win-x64\native\e_sq
 D:\workspace\vscode\Store\StoreApp\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\workspace\vscode\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.AssemblyReference.cache
 D:\workspace\vscode\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.CopyComplete
+D:\workspace\vscode\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
+D:\workspace\vscode\Store\StoreApp\bin\Debug\net6.0\libman.json

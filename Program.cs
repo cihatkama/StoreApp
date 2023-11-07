@@ -11,6 +11,8 @@ builder.Services.AddDbContext<RepositoryContext>(options =>
 
 var app = builder.Build();
 
+// Statik dosyaların kullanılacağı ifade edilir. wwwroot dizini kullanılır anlamına gelir.
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 app.UseRouting();
 
