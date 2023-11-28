@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\html\\Error.html"
     },
     {
+      "Id": "D:\\workspace\\vscode\\Store\\StoreApp\\wwwroot\\images\\product.jpg",
+      "PackagePath": "staticwebassets\\images\\product.jpg"
+    },
+    {
       "Id": "D:\\workspace\\vscode\\Store\\StoreApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

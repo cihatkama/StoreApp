@@ -55,3 +55,7 @@ D:\workspace\vscode\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.AssemblyRefe
 D:\workspace\vscode\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.CopyComplete
 D:\workspace\vscode\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
 D:\workspace\vscode\Store\StoreApp\bin\Debug\net6.0\libman.json
+D:\workspace\vscode\Store\StoreApp\bin\Debug\net6.0\Entities.dll
+D:\workspace\vscode\Store\StoreApp\bin\Debug\net6.0\Repositories.dll
+D:\workspace\vscode\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
+D:\workspace\vscode\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb
